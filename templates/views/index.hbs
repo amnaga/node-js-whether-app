@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="main-content">
+            {{>header}}
+            <p>Use this to get page to get whether details</p>
+        </div>
+        <form>
+            <input placeholder="Location" />
+            <button>Search</button>
+        </form>
+        <p id="error_data"></p>
+        <p id="lattitude_data"></p>
+        <p id="longitude_data"></p>
+        <p id="location_data"></p>
+        <p id="forecast_data"></p>
+        {{>footer}}
+    </body>
+    <script src="js/app.js"></script>
+</html>
